@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    background-color: #FAFAFA;
+    font-family: 'Poppins', sans-serif;
+}
+/*.btn-portfolio {
+    margin-top: 0px;
+}*/
+.service-card{
+    font-size: 16px;
+}
+.our-service h6 {
+    background: #585C5F none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 45px;
+}
+.our-service h6 {
+    position: relative;
+}
+.our-service h4{
+    font-size: 16px;
+}
+.our-service h2{
+    font-size: 48px;
+}
+.specialize-content{
+    font-size: 14px;
+    color: #6C6C6C;
+}
+.specialize h1{
+    font-size: 28px; 
+    line-height: 38.84px;
+}
+.item i {
+    background: #fff none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #000000;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    width: 40px;
+    z-index: 1;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    margin-bottom: 25px;
+}
+.about-us{
+   background-color: #F8F8F8;
+}
+.about-us h6 {
+    background: #585C5F none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 45px;
+}
+.about-us h6 {
+    position: relative;
+}
+.about-us-img img{
+    width: 477px;
+    height:380px;
+}
+.our-profile h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.our-profile p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.trusted-clients li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 50px;
+}
+.trusted-clients h2{
+    font-size: 20px;
+}
+.footer{
+    background-color: #F1F1F1;
+}
+.footer li{
+   list-style: none;
+}
+.country-flag img{
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.company ul{
+    margin-left: -30px;
+}
+.company ul a{
+    text-decoration: none;
+}
+.fa-phone-square-alt{
+    padding-top: 3px;
+}
+
+@media only screen and (max-width:375px) {
+    .btn-portfolio {
+        margin-top: 5px !important;
+    }
+    .our-service{
+        margin-top: 35px !important;
+    }
+    .about-us-img img{
+       padding-top: 15px;
+       width: 277px;
+       height:180px;
+    }
+}
