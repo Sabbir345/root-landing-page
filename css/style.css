@@ -6,6 +6,10 @@ body{
 /*.btn-portfolio {
     margin-top: 0px;
 }*/
+.backdrop {
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
 .service-card{
     font-size: 16px;
 }
@@ -24,6 +28,9 @@ body{
 }
 .our-service h2{
     font-size: 48px;
+}
+.android-img {
+    text-align: right;
 }
 .specialize-content{
     font-size: 14px;
@@ -111,8 +118,9 @@ body{
 .fa-phone-square-alt{
     padding-top: 3px;
 }
+.cookie{width:100%;padding:20px;background:rgb(231, 231, 231);bottom:0;position:fixed;}
 
-@media only screen and (max-width:375px) {
+/*@media only screen and (max-width:375px) {
     .btn-portfolio {
         margin-top: 5px !important;
     }
@@ -123,5 +131,48 @@ body{
        padding-top: 15px;
        width: 277px;
        height:180px;
+    }
+}*/
+@media only screen and (max-width:425px) {
+    .partner{
+        padding-bottom: 25px;
+    }
+    .btn-portfolio {
+        margin-top: 5px !important;
+    }
+    .our-service{
+        margin-top: 35px !important;
+    }
+    .about-us-img img{
+       padding-top: 15px;
+       width: 277px;
+       height:180px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 1024px)  {
+    .service-card {
+        font-size: 11px !important;
+    }
+    .about-us-img img {
+        width: 440px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 768px)  {
+    .service-column {
+        width: 100%;
+    }
+    .about-us-img img {
+        width: 300px;
+        height: 250px;
+    }
+    .border-lg-0 {
+        border: 0 !important;
+    }
+}
+@media (min-width: 992px)
+{
+    .border-lg-0 {
+        border: 0 !important;
     }
 }
