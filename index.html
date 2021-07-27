@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/f9bdb0c80c.js" crossorigin="anonymous"></script>
+    <!-- slick slider css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -221,28 +223,32 @@
           </div>
         </section>
         <section>
-           <div class="container text-center trusted-clients mt-5">
-              <h2><strong>Trusted</strong> by clients around the world</h2>
+           <div class="container mt-5">
+              <h2 class="text-center"><strong>Trusted</strong> by clients around the world</h2>
               <div class="row pt-5 pb-5">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-                  <li><img src="img/happy-clients/1.png"></li>
+                <div class="col-lg-12">
+                    <div class="brand_slide">
+                        <div class="slide">
+                            <img src="img/happy-clients/1.png" alt="slider1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/happy-clients/2.png" alt="slider2.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/happy-clients/3.png" alt="slider3.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/happy-clients/4.png" alt="slider1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/happy-clients/5.png" alt="slider5.png">
+                        </div>
+                        <div class="slide">
+                            <img src="img/happy-clients/6.png" alt="slider3.png">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-                  <li><img src="img/happy-clients/2.png"></li>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-                  <li><img src="img/happy-clients/3.png"></li>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-                  <li><img src="img/happy-clients/4.png"></li>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-                  <li><img src="img/happy-clients/5.png"></li>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-                  <li><img src="img/happy-clients/6.png"></li>
-                </div>
-              </div>
+            </div>
            </div>
         </section>
         <footer class="footer pt-5">
@@ -346,8 +352,13 @@
               <button>accept</button>
           </div>
     </main>
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- slick slider script -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="js/theme.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
           $("button").click(function(){
