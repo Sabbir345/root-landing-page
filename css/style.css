@@ -3,13 +3,34 @@ body{
     background-color: #FAFAFA;
     font-family: 'Poppins', sans-serif;
 }
-/*.btn-portfolio {
-    margin-top: 0px;
-}*/
+li > a:after {
+    content: '';
+    display: block;
+    height: 2.5px;
+    background: black;
+    transform: scaleX(0);
+    margin-top: 9px;
+    transition: transform .3s;
+}
+li > a:hover:after{
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+.free-consultation{
+    background-color: black;
+    color: white !important;
+    border: 1px solid black;
+}
+.get-connected:hover , .btn-portfolio:hover , .explore-services:hover{
+    background-color: black;
+    color: white !important;
+    border: 1px solid black;
+}
 .backdrop {
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
 }
+/* Service */
 .service-card{
     font-size: 16px;
 }
@@ -29,6 +50,14 @@ body{
 .our-service h2{
     font-size: 48px;
 }
+.product-card:hover , .brand-card:hover , .brand-card:hover , .digital-card:hover , 
+.consultancy-card:hover , .web-development:hover , .managed-hosting:hover , 
+.mobile-development:hover , .wordpress-development:hover , .eCommerce-solutions:hover{
+    background: black !important;
+    color:white;
+    transition: all 0.3s ease-in-out 0s;
+}
+/* Service end*/
 .android-img {
     text-align: right;
 }
@@ -39,6 +68,11 @@ body{
 .specialize h1{
     font-size: 28px; 
     line-height: 38.84px;
+}
+.item:hover {
+    background: black;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    color: white;
 }
 .item i {
     background: #fff none repeat scroll 0 0;
@@ -118,6 +152,38 @@ body{
 .fa-phone-square-alt{
     padding-top: 3px;
 }
+/* Contact section start */
+.contact {
+    background-color: #F8F8F8;
+}
+.section-title h2 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    position: relative;
+}
+.contact .info-box {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 0 30px 0;
+    background: #fff;
+}
+.contact .info-box i {
+    font-size: 32px;
+    color: black;
+    border-radius: 50%;
+    padding: 8px;
+}
+.fa-phone-volume {
+    transform: rotate(-45deg);
+}
+.contact .contact-form {
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 30px;
+    background: #fff;
+}
+/* Contact section end*/
 .cookie{width:100%;padding:20px;background:rgb(231, 231, 231);bottom:0;position:fixed;}
 
 /*@media only screen and (max-width:375px) {
