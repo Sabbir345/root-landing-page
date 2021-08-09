@@ -134,10 +134,10 @@ li > a:hover:after{
     filter: grayscale(100%);
 }
 .client-img{
-    width: 125px !important;
+    /*width: 130px !important;*/
 }
 .client-img img {
-    width: 100%;
+    /*width: 100%;*/
 }
 .trusted-clients li {
     text-decoration: none;
@@ -146,6 +146,9 @@ li > a:hover:after{
 }
 .trusted-clients h2{
     font-size: 20px;
+}
+.zata-logo{
+    margin-top: 22%;
 }
 .footer{
     background-color: #F1F1F1;
@@ -231,13 +234,24 @@ li > a:hover:after{
     .our-service{
         margin-top: 35px !important;
     }
+    .our-service h2 {
+        font-size: 25px !important;
+    }
     .about-us-img img{
        padding-top: 15px;
        width: 277px;
        height:180px;
     }
+    .zata-logo{
+        margin-top: 0;
+    }
     .country-flag{
         padding-bottom: 10px;
+    }
+}
+@media (min-width: 1024px)  {
+    .client {
+        width: 14% !important;
     }
 }
 @media only screen and (max-width: 1024px) and (min-width: 1024px)  {
