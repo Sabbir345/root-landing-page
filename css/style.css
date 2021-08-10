@@ -165,7 +165,6 @@ li > a:hover:after{
 .company-heading{
     padding-top: 15px;
     font-size: 25px;
-    font-weight: 600;
 }
 .company ul{
     margin-left: -30px;
@@ -244,6 +243,23 @@ li > a:hover:after{
        padding-top: 15px;
        width: 277px;
        height:180px;
+    }
+    .company-heading{
+        border-bottom: 1px solid #dee2e6!important;
+        display: block;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-bottom: 16px;
+        padding-bottom: 10px;
+    }
+    .country-address{
+        border-bottom: 1px solid #dee2e6!important;
+        display: block;
+        line-height: 28px;
+        margin-bottom: 16px;
+        padding-bottom: 10px;
     }
     .zata-logo{
         margin-top: 0;
