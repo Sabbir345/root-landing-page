@@ -2,6 +2,7 @@ body{
     margin: 0;
     background-color: #FAFAFA;
     /*background-color: #F1F1F1;*/
+    height: 100%;
     font-family: 'Poppins', sans-serif;
 }
 li > a:after {
@@ -152,6 +153,7 @@ li > a:hover:after{
 }
 .footer{
     background-color: #F1F1F1;
+    padding: 1px 0px;
 }
 .footer li{
    list-style: none;
@@ -188,27 +190,6 @@ li > a:hover:after{
     font-weight: bold;
     padding-bottom: 10px;
     position: relative;
-}
-.contact .info-box {
-    color: #444444;
-    text-align: center;
-    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-    padding: 20px 0 30px 0;
-    background: #fff;
-}
-.contact .info-box i {
-    font-size: 32px;
-    color: black;
-    border-radius: 50%;
-    padding: 8px;
-}
-.fa-phone-volume {
-    transform: rotate(-45deg);
-}
-.contact .contact-form {
-    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-    padding: 30px;
-    background: #fff;
 }
 /* Contact section end*/
 .cookie{width:100%;padding:20px;background:rgb(231, 231, 231);bottom:0;position:fixed;}
