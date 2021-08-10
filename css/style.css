@@ -33,7 +33,7 @@ li > a:hover:after{
     color: white !important;
     border: 1px solid black;
 }
-.get-connected:hover , .btn-portfolio:hover , .explore-services:hover{
+.get-connected:hover , .btn-portfolio:hover , .explore-services:hover, .get-quote:hover{
     background-color: black;
     color: white !important;
     border: 1px solid black;
@@ -44,7 +44,7 @@ li > a:hover:after{
 }
 /* Service */
 .service-card{
-    font-size: 16px;
+    font-size: 0.9rem;
 }
 .our-service h6 {
     background: #585C5F none repeat scroll 0 0;
@@ -180,6 +180,12 @@ li > a:hover:after{
 }
 .fa-phone-square-alt{
     padding-top: 3px;
+}
+.social-icon{
+    color: #FAFAFA;
+}
+.social-icon:hover{
+    color: #FAFAFA;
 }
 /* Contact section start */
 .contact {
