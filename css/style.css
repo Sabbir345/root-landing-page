@@ -205,6 +205,12 @@ li > a:hover:after{
     .banner-img{
         padding-top: 10%;
     }
+    .service-column{
+        text-align: center;
+    }
+    .card-body .fas{
+        font-size: 24px;
+    }
     .android-img {
         margin-left: 30px;
         text-align: center;
