@@ -225,7 +225,8 @@ li > a:hover:after{
         padding-top: 10%;
     }
     .android-img {
-        padding-left: 30px;
+        margin-left: 30px;
+        text-align: center;
     }
     .partner{
         padding-bottom: 25px;
