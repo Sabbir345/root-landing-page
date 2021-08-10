@@ -261,11 +261,20 @@ li > a:hover:after{
         margin-bottom: 16px;
         padding-bottom: 10px;
     }
+    .country-address-last{
+        display: block;
+        line-height: 28px;
+        margin-bottom: 16px;
+        padding-bottom: 10px;
+    }
     .zata-logo{
         margin-top: 0;
     }
     .country-flag{
         padding-bottom: 10px;
+    }
+    .company p a {
+        font-size: 18px !important;
     }
 }
 @media (min-width: 1024px)  {
