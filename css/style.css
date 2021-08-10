@@ -225,6 +225,9 @@ li > a:hover:after{
     .banner-img{
         padding-top: 10%;
     }
+    .android-img {
+        padding-left: 30px;
+    }
     .partner{
         padding-bottom: 25px;
     }
