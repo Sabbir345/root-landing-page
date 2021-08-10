@@ -275,6 +275,9 @@ li > a:hover:after{
     .client {
         width: 14% !important;
     }
+    .service-column {
+        width: 27%;
+    }
 }
 @media only screen and (max-width: 1024px) and (min-width: 1024px)  {
     .service-card {
