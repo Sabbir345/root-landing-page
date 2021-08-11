@@ -3,8 +3,17 @@ body{
     background-color: #FAFAFA;
     /*background-color: #F1F1F1;*/
     height: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'AvenirNextLTPro-Regular';
+    /*font-family: 'Poppins', sans-serif;*/
 }
+@font-face {
+  font-family: 'Avenir Next LT Pro';
+  src: url('./AvenirNextLTPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 li > a:after {
     content: '';
     display: block;
@@ -65,12 +74,16 @@ li > a:hover:after{
 .our-service h2{
     font-size: 48px;
 }
+/*.goal-item:hover .goal-icon {
+  filter: invert(1);
+}*/
 .product-card:hover , .brand-card:hover , .brand-card:hover , .digital-card:hover , 
 .consultancy-card:hover , .web-development:hover , .managed-hosting:hover , 
 .mobile-development:hover , .wordpress-development:hover , .eCommerce-solutions:hover{
     background: black !important;
     color:white;
     transition: all 0.3s ease-in-out 0s;
+    fill: white;
 }
 /* Service end*/
 .android-img {
@@ -200,8 +213,11 @@ li > a:hover:after{
     padding-bottom: 10px;
     position: relative;
 }
+.contact-phone{
+    transform: rotate(35deg);
+    width: 16px !important;
+}
 /* Contact section end*/
-.cookie{width:100%;padding:20px;background:rgb(231, 231, 231);bottom:0;position:fixed;}
 
 @media only screen and (max-width:425px) {
     .intro-header{
