@@ -3,15 +3,51 @@ body{
     background-color: #FAFAFA;
     /*background-color: #F1F1F1;*/
     height: 100%;
-    font-family: 'AvenirNextLTPro-Regular';
-    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'AvenirNextLTPro';
 }
 @font-face {
-  font-family: 'Avenir Next LT Pro';
-  src: url('./AvenirNextLTPro-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+  font-weight: 600;
+  font-family: 'AvenirNextLTPro';
+  src: url('/webfonts/3694B0_0_0.eot');
+  src: url('/webfonts/3694B0_0_0.eot?#iefix') format('embedded-opentype'),
+    url('/webfonts/3694B0_0_0.woff2') format('woff2'),
+    url('/webfonts/3694B0_0_0.woff') format('woff'),
+    url('/webfonts/3694B0_0_0.ttf') format('truetype');
+}
+
+/* Medium */
+@font-face {
+  font-weight: 500;
+  font-family: 'AvenirNextLTPro';
+  src: url('/webfonts/3694B0_2_0.eot');
+  src: url('/webfonts/3694B0_2_0.eot?#iefix') format('embedded-opentype'),
+    url('/webfonts/3694B0_2_0.woff2') format('woff2'),
+    url('/webfonts/3694B0_2_0.woff') format('woff'),
+    url('/webfonts/3694B0_2_0.ttf') format('truetype');
+}
+
+/* Regular */
+@font-face {
+  font-weight: 400;
+  font-family: 'AvenirNextLTPro';
+  src: url('/webfonts/3694B0_1_0.eot');
+  src: url('/webfonts/3694B0_1_0.eot?#iefix') format('embedded-opentype'),
+    url('/webfonts/3694B0_1_0.woff2') format('woff2'),
+    url('/webfonts/3694B0_1_0.woff') format('woff'),
+    url('/webfonts/3694B0_1_0.ttf') format('truetype');
+}
+
+/* Monotype Sabon */
+
+/* Semibold */
+@font-face {
+  font-weight: 600;
+  font-family: 'SabonMTStd';
+  src: url('/webfonts/3694B0_3_0.eot');
+  src: url('/webfonts/3694B0_3_0.eot?#iefix') format('embedded-opentype'),
+    url('/webfonts/3694B0_3_0.woff2') format('woff2'),
+    url('/webfonts/3694B0_3_0.woff') format('woff'),
+    url('/webfonts/3694B0_3_0.ttf') format('truetype');
 }
 
 li > a:after {
@@ -42,6 +78,11 @@ li > a:hover:after{
     padding-bottom: 5%;
 }
 .hero-title{
+    display: block;
+    font-size: 64px;
+    font-weight: 600 !important;
+    letter-spacing: .6px;
+    line-height: 68px;
     margin-bottom: 16px;
 }
 .free-consultation{
