@@ -18,6 +18,9 @@ li > a:hover:after{
     transform: scaleX(1);
     transition: transform .3s;
 }
+.cta-btn a:after {
+    content: none;
+}
 .menu-bar{
     padding-top: 20px;
 }
