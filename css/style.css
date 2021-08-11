@@ -27,6 +27,10 @@ li > a:hover:after{
     transform: scaleX(1);
     transition: transform .3s;
 }
+.navbar-custom{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
 .cta-btn a:after {
     content: none;
 }
@@ -54,7 +58,7 @@ li > a:hover:after{
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
 }
-/* Service */
+/* Service 
 .service-card{
     font-size: 0.9rem;
 }
@@ -220,6 +224,10 @@ li > a:hover:after{
 /* Contact section end*/
 
 @media only screen and (max-width:425px) {
+    .navbar-custom{
+        padding-top: .8rem !important;
+        padding-bottom: .8rem !important;
+    }
     .intro-header{
         padding-top: 30% !important;
         text-align: center;
