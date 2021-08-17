@@ -4,37 +4,26 @@ body{
     /*background-color: #F1F1F1;*/
     height: 100%;
     font-family: 'AvenirNextLTPro';
+    src: url('webfonts/AvenirNext_Variable.ttf') format('truetype');
 }
 @font-face {
   font-weight: 600;
   font-family: 'AvenirNextLTPro';
-  src: url('/webfonts/3694B0_0_0.eot');
-  src: url('/webfonts/3694B0_0_0.eot?#iefix') format('embedded-opentype'),
-    url('/webfonts/3694B0_0_0.woff2') format('woff2'),
-    url('/webfonts/3694B0_0_0.woff') format('woff'),
-    url('/webfonts/3694B0_0_0.ttf') format('truetype');
+  src: url('webfonts/AvenirNext_Variable.ttf') format('truetype');
 }
 
 /* Medium */
 @font-face {
   font-weight: 500;
   font-family: 'AvenirNextLTPro';
-  src: url('/webfonts/3694B0_2_0.eot');
-  src: url('/webfonts/3694B0_2_0.eot?#iefix') format('embedded-opentype'),
-    url('/webfonts/3694B0_2_0.woff2') format('woff2'),
-    url('/webfonts/3694B0_2_0.woff') format('woff'),
-    url('/webfonts/3694B0_2_0.ttf') format('truetype');
+  src: url('webfonts/AvenirNext_Variable.ttf') format('truetype');
 }
 
 /* Regular */
 @font-face {
   font-weight: 400;
   font-family: 'AvenirNextLTPro';
-  src: url('/webfonts/3694B0_1_0.eot');
-  src: url('/webfonts/3694B0_1_0.eot?#iefix') format('embedded-opentype'),
-    url('/webfonts/3694B0_1_0.woff2') format('woff2'),
-    url('/webfonts/3694B0_1_0.woff') format('woff'),
-    url('/webfonts/3694B0_1_0.ttf') format('truetype');
+  src: url('webfonts/AvenirNext_Variable.ttf') format('truetype');
 }
 
 /* Monotype Sabon */
@@ -42,12 +31,8 @@ body{
 /* Semibold */
 @font-face {
   font-weight: 600;
-  font-family: 'SabonMTStd';
-  src: url('/webfonts/3694B0_3_0.eot');
-  src: url('/webfonts/3694B0_3_0.eot?#iefix') format('embedded-opentype'),
-    url('/webfonts/3694B0_3_0.woff2') format('woff2'),
-    url('/webfonts/3694B0_3_0.woff') format('woff'),
-    url('/webfonts/3694B0_3_0.ttf') format('truetype');
+  font-family: 'AvenirNextLTPro';
+  src: url('webfonts/AvenirNext_Variable.ttf') format('truetype');
 }
 
 li > a:after {
@@ -84,6 +69,7 @@ li > a:hover:after{
     letter-spacing: .6px;
     line-height: 68px;
     margin-bottom: 16px;
+    font-family: AvenirNextLTPro, Arial, Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Droid Sans", "Helvetica Neue", "Open Sans", Icons16, sans-serif;;
 }
 .free-consultation{
     background-color: black;
@@ -263,9 +249,9 @@ li > a:hover:after{
 }
 @media only screen and (max-width:425px) {
     .hero-title {
-        font-size: 46px;
+        font-size: 32px;
         padding-bottom: 5%;
-        line-height: 50px;
+        line-height: 40px;
     }
     .navbar-custom{
         padding-top: .8rem !important;
