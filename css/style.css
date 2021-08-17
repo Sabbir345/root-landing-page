@@ -272,17 +272,16 @@ li > a:hover:after{
 @media only screen and (max-width:425px) {
     .hero-title {
         font-size: 50px;
+        padding-bottom: 5%;
+        line-height: 50px;
     }
     .navbar-custom{
         padding-top: .8rem !important;
         padding-bottom: .8rem !important;
     }
     .intro-header{
-        padding-top: 30% !important;
+        padding-top: 25% !important;
         text-align: center;
-    }
-    .hero-title{
-        padding-bottom: 5%;
     }
     .banner-img{
         padding-top: 10%;
