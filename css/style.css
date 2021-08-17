@@ -263,11 +263,11 @@ li > a:hover:after{
     width: 16px !important;
 }
 /* Contact section end*/
-@media only screen and (max-width: 425px){
+/*@media only screen and (max-width: 425px){
     .hero-title {
-        font-size: 46px;
+        
     }
-}
+}*/
 @media only screen and (max-width:375px) {
     .trusted-client-title{
         font-size: 22px;
@@ -275,7 +275,7 @@ li > a:hover:after{
 }
 @media only screen and (max-width:425px) {
     .hero-title {
-        font-size: 50px;
+        font-size: 46px;
         padding-bottom: 5%;
         line-height: 50px;
     }
