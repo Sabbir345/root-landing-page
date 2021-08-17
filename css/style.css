@@ -312,6 +312,9 @@ li > a:hover:after{
     .our-service h2 {
         font-size: 25px !important;
     }
+    .trusted-client-title {
+        font-size: 22px;
+    }
     .about-us-img img{
        padding-top: 15px;
        width: 277px;
