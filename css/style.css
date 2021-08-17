@@ -99,10 +99,7 @@ li > a:hover:after{
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
 }
-/* Service 
-.service-card{
-    font-size: 0.9rem;
-}
+/* Service */
 .our-service h6 {
     background: #585C5F none repeat scroll 0 0;
     content: "";
@@ -113,15 +110,6 @@ li > a:hover:after{
 .our-service h6 {
     position: relative;
 }
-.our-service h4{
-    font-size: 16px;
-}
-.our-service h2{
-    font-size: 48px;
-}
-/*.goal-item:hover .goal-icon {
-  filter: invert(1);
-}*/
 .product-card:hover , .brand-card:hover , .brand-card:hover , .digital-card:hover , 
 .consultancy-card:hover , .web-development:hover , .managed-hosting:hover , 
 .mobile-development:hover , .wordpress-development:hover , .eCommerce-solutions:hover{
@@ -313,7 +301,7 @@ li > a:hover:after{
         font-size: 25px !important;
     }
     .trusted-client-title {
-        font-size: 22px;
+        font-size: 20px;
     }
     .about-us-img img{
        padding-top: 15px;
